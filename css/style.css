@@ -1,0 +1,240 @@
+*{
+	padding: 0px;
+	margin: 0px;	
+}
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+
+}
+h1, h2, h3, h4, h5, h6{
+font-family: 'Source Sans Pro', sans-serif;
+}
+a, a:hover{
+	font-family: 'Source Sans Pro', sans-serif;
+	text-decoration:none; 
+}
+
+/* global css code for title*/
+
+.title{
+	width: 100%;	
+}
+.title h6{
+	font-size: 18px;
+	letter-spacing: 3px;
+	font-weight: 600;  
+	text-transform: uppercase;
+	line-height: 28px;
+	color:  #008ed6;
+}
+.inner-banner h1{
+	font-size: 54px;
+	letter-spacing: 1px;
+	font-weight: 600;  
+	line-height: 53px;
+	margin: 20px 0px;
+}
+
+.header-section{
+	width: 100%;
+	height: 100vh;
+	background: url("../images/home.png") center top no-repeat;
+	background-size:cover; 
+
+
+}
+.mainmenu{
+	width: 100%;
+
+}
+.mainmenu .bg-light{ 
+	background: transparent !important;
+}
+.mainmenu .navbar-light .navbar-nav .nav-link.active{
+	color: #fff;
+	background: url("../images/hr.png") center bottom no-repeat;
+	background-size: auto;
+}
+
+.mainmenu .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin: 0px 10px;
+} 
+.mainmenu .navbar-light .navbar-nav .nav-link:hover, .mainmenu .navbar-light .navbar-nav .nav-link:focus{
+
+background: url("../images/hr.png") center bottom no-repeat;
+	background-size: auto;
+}
+/*banner section code start*/
+.banner{
+	 width: 100%;
+	 padding: 100px 0px;
+}
+.inner-banner{
+	width: 100%;
+	padding: 40px 0px;
+}
+.inner-banner h6{
+	font-size: 10px;
+	letter-spacing: 3px;
+	font-weight: 600;  
+	text-transform: uppercase;
+	line-height: 28px;
+	color:  #008ed6;
+}
+.inner-banner h1{
+	font-size: 54px;
+	letter-spacing: 1px;
+	font-weight: 600;  
+	line-height: 53px;
+	color:  #fff;
+	margin: 20px 0px;
+}
+.inner-banner p{
+	font-size: 16px;
+	font-weight: 400;  
+	line-height: 26px;
+	color:  #999999;
+}
+.inner-bth{
+	width: 100%;
+	margin: 50px 0px 0px; 
+}
+.inner-bth .btn-primary {
+    padding: 15px 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border: 1px solid #0099cc;
+    background: #0099cc;
+    color: #fff;
+    border-radius: 2px;
+    margin-right: 20px;
+    transition: 1s;
+}
+.inner-bth .btn-primary:hover, .inner-bth .btn-primary:focus{
+	background:transparent;
+	border: 1px solid #0099cc;
+    color: #0099cc;
+}
+.inner-bth .btn-light {
+    padding: 15px 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border: 1px solid #999999;
+    background:transparent;
+    color: #fff;
+    border-radius: 2px;
+    transition: 1s;
+}
+.inner-bth .btn-light:hover, .inner-bth .btn-light:focus{
+	background: #0099cc;
+	border: 1px solid #0099cc;
+    color: #fff; 
+}
+.feature{
+	width: 100%;
+	padding: 80px 0px;
+
+}
+.feature .title {
+	text-align: center;
+} 
+.inner-feature{
+	width: 100%;
+	padding: 40px 20px 0px;
+	text-align: center;
+}
+.icons-inner{
+	width: 70px;
+	height: 70px;
+	line-height:70px;
+	margin: 0 auto;
+	border: 1px solid #eee;
+	border-radius: 100%;
+
+
+}
+.inner-feature h4 {
+    font-size: 22px;
+    margin: 20px 0px;
+    font-weight: 600;
+    color: #000;
+}
+.inner-feature p{
+	font-size: 16px;
+	font-weight: 400;  
+	line-height: 26px;
+	color:  #999999;
+}
+.about-long{
+	width: 100%;
+	padding: 80px 0px;
+	border: 1px solid #eee;
+
+}
+.about-long .titel{
+	margin-bottom: 20px;
+}
+.inner-about-long{
+	width: 100%;
+	margin-top: 40px; 
+
+}
+.inner-about-long h5{
+	font-size: 20px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-weight: 700;
+	line-height: 26px;
+	color: #008ed6;
+}
+.inner-about-long p{
+	font-size: 16px;
+	font-weight: 400;  
+	line-height: 26px;
+	color:  #999999; 
+}
+.inner-about-long .list-ablong{
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 38px;
+	color: #000;
+	margin-top: 30px;
+}
+.inner-about-long .list-ablong img{
+    margin-right: 15px;
+    width: 11px;
+}
+.super{
+	width: 100%;
+	padding: 95px 0px;
+	background-color: #ccc;
+}
+.super .titel-text{
+	width: 100%;
+	padding-top: 80px;
+}
+.super .titel-text h5{
+	font-size: 20px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-weight: 700;
+	line-height: 26px;
+	color: #008ed6; 
+}
+.super .titel-text p{
+	width: 100%;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 25px;
+	color: #999; 
+}
